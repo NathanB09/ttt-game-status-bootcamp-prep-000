@@ -26,10 +26,10 @@ def won?(board)
     elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
       print combination
     else
-      false
+      print false
     end
   end
 end
 
-board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
 won?(board)
