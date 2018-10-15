@@ -29,7 +29,6 @@ def won?(board)
       false
     end
   end
-  false
 end
 
 board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
