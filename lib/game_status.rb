@@ -22,9 +22,9 @@ def won?(board)
     pos_3 = board[combination[2]]
 
     if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
-      print combination
+      combination
     elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
-      print combination
+      combination
     else
       false
     end
