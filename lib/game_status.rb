@@ -22,7 +22,7 @@ def won?(board)
     pos_3 = position_taken?(board, combination[2])
     puts pos_1, pos_2, pos_3
 
-    pos_1 && pos_2 && pos_3 ? combination : false
+    # pos_1 && pos_2 && pos_3 ? combination : false
   end
 end
 
