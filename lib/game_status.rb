@@ -16,5 +16,17 @@ WIN_COMBINATIONS = [
 ]
 
 def won(board)
+  WIN_COMBINATIONS.all? do |combination|
+    pos_1 = board[combination[0]]
+    pos_2 = board[combination[1]]
+    pos_3 = board[combination[2]]
 
+    if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
+      combination
+    elsif pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
+      combination
+    else
+      false
+    end      
+  end
 end
