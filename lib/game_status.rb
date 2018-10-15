@@ -21,11 +21,6 @@ def won?(board)
     pos_2 = position_taken?(board, board[combination[1]])
     pos_3 = position_taken?(board, board[combination[2]])
 
-    if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
-      combination
-    elsif pos_1 == "O" && pos_2 == "O" && pos_3 == "O"
-      combination
-    end
+    pos_1 && pos_2 && pos_3 ? combination : false
   end
-  false
 end
