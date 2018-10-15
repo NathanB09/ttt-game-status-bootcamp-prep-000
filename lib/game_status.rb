@@ -25,3 +25,6 @@ def won?(board)
     pos_1 && pos_2 && pos_3 ? combination : false
   end
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+won?(board)
