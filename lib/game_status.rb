@@ -20,9 +20,9 @@ def won?(board)
     pos_1 = position_taken?(board, combination[0])
     pos_2 = position_taken?(board, combination[1])
     pos_3 = position_taken?(board, combination[2])
-    puts "first #{pos_1}"
-    puts "first #{pos_2}"
-    puts "first #{pos_3}"
+    puts "1 #{pos_1}"
+    puts "2 #{pos_2}"
+    puts "3 #{pos_3}"
 
     # pos_1 && pos_2 && pos_3 ? combination : false
   end
