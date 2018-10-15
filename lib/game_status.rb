@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2] #diagonal 2
 ]
 
-def won/(board)
+def won?(board)
   WIN_COMBINATIONS.all? do |combination|
     pos_1 = board[combination[0]]
     pos_2 = board[combination[1]]
