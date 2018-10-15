@@ -17,9 +17,9 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |combination|
-    pos_1 = position_taken?(board, board[combination[0]])
-    pos_2 = position_taken?(board, board[combination[1]])
-    pos_3 = position_taken?(board, board[combination[2]])
+    pos_1 = position_taken?(board, combination[0])
+    pos_2 = position_taken?(board, combination[1])
+    pos_3 = position_taken?(board, combination[2])
     puts pos_1, pos_2, pos_3
 
     pos_1 && pos_2 && pos_3 ? combination : false
