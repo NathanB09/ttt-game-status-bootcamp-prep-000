@@ -14,7 +14,3 @@ WIN_COMBINATIONS = [
   [0, 4, 8] #diagonal 1
   [6, 4, 2] #diagonal 2
 ]
-
-def won
-
-end
