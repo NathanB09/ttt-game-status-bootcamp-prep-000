@@ -17,9 +17,9 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |combination|
-    pos_1 = board[combination[0]]
-    pos_2 = board[combination[1]]
-    pos_3 = board[combination[2]]
+    pos_1 = position_taken?(board, board[combination[0]])
+    pos_2 = position_taken?(board, board[combination[1]])
+    pos_3 = position_taken?(board, board[combination[2]])
 
     if pos_1 == "X" && pos_2 == "X" && pos_3 == "X"
       combination
